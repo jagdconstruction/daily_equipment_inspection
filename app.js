@@ -525,7 +525,7 @@ function onSigPointerUp(ev) {
   sigLast = null;
 }
 
-function updateSigPreview() {() {
+function updateSigPreview() {
   if (state.signature) {
     els.sigPreview.innerHTML = `<img src="${state.signature}" alt="signature preview" />`;
   } else {
